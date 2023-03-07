@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Website</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.slim.min.js"
+      integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- RxJS -->
+    <script src="https://unpkg.com/rxjs@7.8.0/dist/bundles/rxjs.umd.min.js"></script>
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <div id="left">
+        <div id="zoom-container">
+          <label for="zoom" class="form-label">Zoom</label>
+          <input type="range" class="form-range" id="zoom" />
+        </div>
+        <div id="rotation-container">
+          <label for="rotation" class="form-label">Rotation</label>
+          <input type="range" class="form-range" id="rotation" />
+        </div>
+        <div id="svg-container"></div>
+      </div>
+      <div id="right">
+        <!-- Select a Tool -->
+        <form>
+          <div class="mb-3">
+            <label for="select-tool" class="form-label">Select a Tool</label>
+            <select id="select-tool" class="form-select">
+              <option value="centrua-small" selected>Centrua Small</option>
+              <option value="centrua-big">Centrua Big</option>
+            </select>
+          </div>
+        </form>
+
+        <hr />
+
+        <h5>Configuration</h5>
+
+        <!-- Chamber 1 -->
+        <div class="form-inputs">
+          <div class="row">
+            <div class="col-12">
+              <div class="form-check form-switch">
+                <input class="form-check-input chamber_display" type="checkbox" role="switch" id="Chamber_1_display" />
+                <label class="form-check-label h6" for="Chamber_1_display">Chamber 1</label>
+              </div>
+            </div>
+          </div>
+          <div class="row align-form-items">
+            <div class="col-8">
+              <select id="Chamber_1" class="form-select chamber_state" aria-label="Default select example">
+                <option value="PROC">Processing</option>
+                <option value="SBY">Standby</option>
+                <option value="UDT">Unscheduled Down</option>
+              </select>
+            </div>
+            <div class="col-4">
+              <div class="form-check form-switch">
+                <input class="form-check-input chamber_alarm" type="checkbox" role="switch" id="Chamber_1_alarm" />
+                <label class="form-check-label h6" for="chamber_1_toggle">Alarm</label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chamber 2 -->
+        <div class="form-inputs">
+          <div class="row">
+            <div class="col-12">
+              <div class="form-check form-switch">
+                <input class="form-check-input chamber_display" type="checkbox" role="switch" id="Chamber_2_display" />
+                <label class="form-check-label h6" for="Chamber_2_display">Chamber 2</label>
+              </div>
+            </div>
+          </div>
+          <div class="row align-form-items">
+            <div class="col-8">
+              <select id="Chamber_2" class="form-select chamber_state" aria-label="Default select example">
+                <option value="PROC">Processing</option>
+                <option value="SBY">Standby</option>
+                <option value="UDT">Unscheduled Down</option>
+              </select>
+            </div>
+            <div class="col-4">
+              <div class="form-check form-switch">
+                <input class="form-check-input chamber_alarm" type="checkbox" role="switch" id="Chamber_2_alarm" />
+                <label class="form-check-label h6" for="chamber_2_toggle">Alarm</label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chamber 3 -->
+        <div class="form-inputs">
+          <div class="row">
+            <div class="col-12">
+              <div class="form-check form-switch">
+                <input class="form-check-input chamber_display" type="checkbox" role="switch" id="Chamber_3_display" />
+                <label class="form-check-label h6" for="Chamber_3_display">Chamber 3</label>
+              </div>
+            </div>
+          </div>
+          <div class="row align-form-items">
+            <div class="col-8">
+              <select id="Chamber_3" class="form-select chamber_state" aria-label="Default select example">
+                <option value="PROC">Processing</option>
+                <option value="SBY">Standby</option>
+                <option value="UDT">Unscheduled Down</option>
+              </select>
+            </div>
+            <div class="col-4">
+              <div class="form-check form-switch">
+                <input class="form-check-input chamber_alarm" type="checkbox" role="switch" id="Chamber_3_alarm" />
+                <label class="form-check-label h6" for="chamber_3_toggle">Alarm</label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chamber 4 -->
+        <div class="form-inputs">
+          <div class="row">
+            <div class="col-12">
+              <div class="form-check form-switch">
+                <input class="form-check-input chamber_display" type="checkbox" role="switch" id="Chamber_4_display" />
+                <label class="form-check-label h6" for="Chamber_4_display">Chamber 4</label>
+              </div>
+            </div>
+          </div>
+          <div class="row align-form-items">
+            <div class="col-8">
+              <select id="Chamber_4" class="form-select chamber_state" aria-label="Default select example">
+                <option value="PROC">Processing</option>
+                <option value="SBY">Standby</option>
+                <option value="UDT">Unscheduled Down</option>
+              </select>
+            </div>
+            <div class="col-4">
+              <div class="form-check form-switch">
+                <input class="form-check-input chamber_alarm" type="checkbox" role="switch" id="Chamber_4_alarm" />
+                <label class="form-check-label h6" for="chamber_4_toggle">Alarm</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="svgs.js"></script>
+    <script src="utilities.js"></script>
+    <script src="process-states.js"></script>
+    <script src="initial-states.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

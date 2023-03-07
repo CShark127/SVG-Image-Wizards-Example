@@ -1,0 +1,188 @@
+<svg width="449" height="473" viewBox="0 0 449 473" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g id="Centura">
+    <g id="Main_Frame">
+      <path
+        id="Main_Frame_Background"
+        d="M104.813 131.317L210.496 87.5412L316.179 131.317L359.955 237L316.179 342.683L210.496 386.459L104.813 342.683L61.0373 237L104.813 131.317Z"
+        fill="#008000"
+        stroke="black"
+      />
+      <circle id="Main_Frame_Stage" cx="210.996" cy="237.5" r="112" fill="#008080" stroke="black" />
+    </g>
+    <g id="Chamber_4">
+      <rect
+        id="Chamber_4_Background"
+        x="222.149"
+        y="380.539"
+        width="99"
+        height="99"
+        rx="7.5"
+        transform="rotate(-22.5 222.149 380.539)"
+        fill="#008000"
+        stroke="black"
+      />
+      <circle
+        id="Chamber_4_Stage"
+        cx="286.707"
+        cy="407.28"
+        r="39.5"
+        transform="rotate(-22.5 286.707 407.28)"
+        fill="#008080"
+        stroke="black"
+      />
+    </g>
+    <g id="Chamber_3">
+      <rect
+        id="Chamber_3_Background"
+        x="318.149"
+        y="338.117"
+        width="99"
+        height="99"
+        rx="7.5"
+        transform="rotate(-67.5 318.149 338.117)"
+        fill="#008000"
+        stroke="black"
+      />
+      <circle
+        id="Chamber_3_Stage"
+        cx="382.707"
+        cy="311.377"
+        r="39.5"
+        transform="rotate(-67.5 382.707 311.377)"
+        fill="#008080"
+        stroke="black"
+      />
+    </g>
+    <g id="Chamber_2">
+      <rect
+        id="Chamber_2_Background"
+        x="318.911"
+        y="137.3"
+        width="99"
+        height="99"
+        rx="7.5"
+        transform="rotate(-22.5 318.911 137.3)"
+        fill="#008000"
+        stroke="black"
+      />
+      <circle
+        id="Chamber_2_Stage"
+        cx="383.469"
+        cy="164.041"
+        r="39.5"
+        transform="rotate(-22.5 383.469 164.041)"
+        fill="#008080"
+        stroke="black"
+      />
+    </g>
+    <g id="Chamber_1">
+      <rect
+        id="Chamber_1_Background"
+        x="222.149"
+        y="92.1173"
+        width="99"
+        height="99"
+        rx="7.5"
+        transform="rotate(-67.5 222.149 92.1173)"
+        fill="#008000"
+        stroke="black"
+      />
+      <circle
+        id="Chamber_1_Stage"
+        cx="286.707"
+        cy="65.3766"
+        r="39.5"
+        transform="rotate(-67.5 286.707 65.3766)"
+        fill="#008080"
+        stroke="black"
+      />
+    </g>
+    <g id="Load_Port_4">
+      <rect
+        id="Load_Port_3_Background"
+        x="90.9704"
+        y="56.7929"
+        width="74"
+        height="74"
+        rx="7.5"
+        transform="rotate(-22.5 90.9704 56.7929)"
+        fill="#008000"
+        stroke="black"
+      />
+      <circle
+        id="Load_Port_4_Stage"
+        cx="139.225"
+        cy="76.7808"
+        r="29.5"
+        transform="rotate(-22.5 139.225 76.7808)"
+        fill="#008080"
+        stroke="black"
+      />
+    </g>
+    <g id="Load_Port_3">
+      <path id="Load_Port_3_Background_2" d="M90 170L49.5 131H1V205H75L90 170Z" fill="#008000" stroke="black" />
+      <circle
+        id="Load_Port_3_Stage"
+        cx="30"
+        cy="30"
+        r="29.5"
+        transform="matrix(1 0 0 -1 8 198)"
+        fill="#008080"
+        stroke="black"
+      />
+    </g>
+    <g id="Load_Port_2">
+      <path id="Load_Port_2_Background" d="M90 303L49.5 342H1V268H75L90 303Z" fill="#008000" stroke="black" />
+      <circle id="Load_Port_2_Stage" cx="38" cy="305" r="29.5" fill="#008080" stroke="black" />
+    </g>
+    <g id="Load_Port_1">
+      <rect
+        id="Load_Port_1_Background"
+        x="91.1494"
+        y="417.02"
+        width="74"
+        height="74"
+        rx="7.5"
+        transform="rotate(-67.5 91.1494 417.02)"
+        fill="#008000"
+        stroke="black"
+      />
+      <circle
+        id="Load_Port_1_Stage"
+        cx="139.404"
+        cy="397.032"
+        r="29.5"
+        transform="rotate(-67.5 139.404 397.032)"
+        fill="#008080"
+        stroke="black"
+      />
+    </g>
+    <g id="Main_Frame_Health_Container">
+      <rect id="Main_Frame_Health_Bar" x="166.5" y="205.5" width="34" height="9" fill="#00FF00" stroke="black" />
+    </g>
+    <g id="Chamber_4_Health_Container">
+      <rect id="Chamber_4_Health_Bar" x="247.5" y="387.5" width="34" height="9" fill="#00FF00" stroke="black" />
+    </g>
+    <g id="Chamber_3_Health_Container">
+      <rect id="Chamber_3_Health_Bar" x="349.5" y="287.5" width="34" height="9" fill="#00FF00" stroke="black" />
+    </g>
+    <g id="Chamber_2_Health_Container">
+      <rect id="Chamber_2_Health_Bar" x="348.5" y="136.5" width="34" height="9" fill="#00FF00" stroke="black" />
+    </g>
+    <g id="Chamber_1_Health_Container">
+      <rect id="Chamber_1_Health_Bar" x="247.5" y="37.5" width="34" height="9" fill="#00FF00" stroke="black" />
+    </g>
+    <g id="Load_Port_4_Health_Container">
+      <rect id="Load_Port_4_Health_Bar" x="104.5" y="55.5" width="34" height="9" fill="#00FF00" stroke="black" />
+    </g>
+    <g id="Load_Port_3_Health_Container">
+      <rect id="Load_Port_3_Health_Bar" x="5.5" y="141.5" width="34" height="9" fill="#00FF00" stroke="black" />
+    </g>
+    <g id="Load_Port_2_Health_Container">
+      <rect id="Load_Port_2_Health_Bar" x="5.5" y="326.5" width="34" height="9" fill="#00FF00" stroke="black" />
+    </g>
+    <g id="Load_Port_1_Health_Container">
+      <rect id="Load_Port_1_Health_Bar" x="111.5" y="407.5" width="34" height="9" fill="#00FF00" stroke="black" />
+    </g>
+  </g>
+</svg>
