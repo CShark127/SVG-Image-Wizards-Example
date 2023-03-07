@@ -57,6 +57,11 @@ main {
   transform: rotate(270deg);
 }
 
+#left #rotation-container input,
+#left #rotation-container label {
+  max-width: 600px;
+}
+
 #right {
   padding: 1rem;
   width: 40%;
