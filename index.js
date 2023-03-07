@@ -52,14 +52,14 @@ const toolSelectorChange$ = fromEvent(toolSelectorElm, "change").pipe(
 
 // Zoom
 const zoomElm = document.getElementById("zoom");
-const zoomChange$ = fromEvent($("#zoom"), "change").pipe(
+const zoomChange$ = fromEvent(zoomElm, "change").pipe(
   map((e) => getScaledValue(e.target.value, 0, 100, 0.5, 1.5)),
   startWith(1)
 );
 
 // Rotation
 const rotationElm = document.getElementById("rotation");
-const rotationChange$ = fromEvent($("#rotation"), "change").pipe(
+const rotationChange$ = fromEvent(rotationElm, "change").pipe(
   map((e) => getScaledValue(e.target.value, 0, 100, -180, 180)),
   startWith(0)
 );
